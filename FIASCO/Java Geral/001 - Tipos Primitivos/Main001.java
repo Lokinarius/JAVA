@@ -9,5 +9,6 @@ public class Main001 {
         Long id = 2847412412444421L; // 64 bits
         // O int armazena no máximo até 2147483647, após esse valor faz se necessário a utilização do Long
         // O Long sempre possui um 'L' no final do número
+
     }
 }
