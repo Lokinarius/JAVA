@@ -7,4 +7,10 @@ public class Uzumaki extends Ninja {
     public void chakraInfinito() {
         System.out.println("Uzumakis tem Chakra Infinito");
     }
+
+    /* Polimorfismo */
+    @Override
+    public void ataqueBase() {
+        System.out.println(nome + " arremessa uma kunai de vento!");
+    }
 }
