@@ -24,5 +24,15 @@ public class MainManipulacaoDeDados {
 
         // Fechando o Scanner
         scanner.close();
+
+        // Criando um novo Scanner para ler dados do teclado
+        Scanner teclado = new Scanner(System.in);
+
+        // Convertendo de um tipo para outro
+        System.out.print("Digite sua idade: ");
+        int idade = teclado.nextInt();
+        String idadeLiteral = Integer.toString(idade);
+        System.out.println("Sua idade em texto é: " + idadeLiteral);
+        teclado.close();
     }
 }
