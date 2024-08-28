@@ -74,7 +74,7 @@ public class MainOperadoresAritmeticos {
 
         // Exponenciação
         // Math.pow()
-        int exponenciacao = (int) Math.pow(a, b);
+        int exponenciacao = (int) Math.pow(5, 2);
         System.out.println("Exponenciação: " + exponenciacao);
 
         // Raiz
@@ -92,6 +92,11 @@ public class MainOperadoresAritmeticos {
         double arredondadoBaixo = Math.floor(divisao);
         System.out.println("Arredondado para baixo: " + arredondadoBaixo);
 
+        // Arredondamento aritimético
+        // Math.round()
+        int arredondadoAritmetico = (int) Math.round(divisao);
+        System.out.println("Arredondado aritmético: " + arredondadoAritmetico);
+        
         // Random
         // Math.random()
         double numeroAleatorio = Math.random() * 100;
