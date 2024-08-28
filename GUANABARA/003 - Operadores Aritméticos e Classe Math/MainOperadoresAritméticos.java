@@ -25,6 +25,12 @@ public class MainOperadoresAritméticos {
         double divisao = (double) a / b;
         System.out.println("Divisão: " + divisao);
 
+        // Módulo (resto da divisão)
+        // %
+        int modulo = a % b;
+
+        /* CLASSE MATH */
+
         // Exponenciação
         // Math.pow()
         int exponenciacao = (int) Math.pow(a, b);
@@ -35,7 +41,6 @@ public class MainOperadoresAritméticos {
         double raiz = Math.sqrt(a);
         System.out.println("Raiz quadrada: " + raiz);
 
-        // Módulo (resto da divisão)
-        int modulo = a % b;
+
     }
 }
