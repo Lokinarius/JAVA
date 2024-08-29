@@ -96,7 +96,7 @@ public class MainOperadoresAritmeticos {
         // Math.round()
         int arredondadoAritmetico = (int) Math.round(divisao);
         System.out.println("Arredondado aritmético: " + arredondadoAritmetico);
-        
+
         // Random
         // Math.random()
         double numeroAleatorio = Math.random() * 100;
