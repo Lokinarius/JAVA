@@ -1,8 +1,10 @@
-public class Main004 {
+package java.fiasco.poo;
+
+public class Main004POOClasseseObjetos {
     public static void main(String[] args) {
         // objeto 1
-        Uzumaki naruto = new Uzumaki();
-        naruto.setNome("Naruto Uzumaki");
+        uzumaki naruto = new uzumaki();
+        naruto.setNome("Naruto java.fiasco.poo.Uzumaki");
         naruto.getNome();
         naruto.idade = 16;
         naruto.bijuu = true;
@@ -10,8 +12,8 @@ public class Main004 {
 
 
         // objeto 2
-        Uchiha sasuke = new Uchiha();
-        sasuke.setNome("Sasuke Uchiha");
+        uchiha sasuke = new uchiha();
+        sasuke.setNome("Sasuke java.fiasco.poo.Uchiha");
         sasuke.getNome();
         sasuke.sharingan();
         sasuke.ataqueBase(12);

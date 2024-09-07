@@ -1,3 +1,5 @@
+package java.fiasco.poo;
+
 public class uchiha extends ninja{
     // Sharigan
     public void SharinganAtivado() {
@@ -5,4 +7,4 @@ public class uchiha extends ninja{
     }
 }
 // Utilizar o comando extends faz com que a classe filho herde características da classe mãe
-// neste caso "ninja" >>> "uchiha"
+// neste caso "java.fiasco.poo.005 - Herança.java.fiasco.poo.ninja" >>> "java.fiasco.poo.005 - Herança.java.fiasco.poo.uchiha"

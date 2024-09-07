@@ -1,4 +1,6 @@
-public class Main001 {
+package java.fiasco.poo;
+
+public class Main001TiposPrimitivoseMemoria {
     public static void main(String[] args) {
         /* Tipos primitivos */
 
