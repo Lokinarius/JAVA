@@ -1,4 +1,6 @@
-public class MainTiposPrimitivos {
+package java.guanabara.introducao;
+
+public class Main004TiposPrimitivos {
     public static void main(String[] args) {
 
         /* LÓGICOS */

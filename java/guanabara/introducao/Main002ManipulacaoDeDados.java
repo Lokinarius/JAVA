@@ -1,6 +1,6 @@
-// Importando Scanner
+package java.guanabara.introducao;// Importando Scanner
 import java.util.Scanner;
-public class MainManipulacaoDeDados {
+public class Main002ManipulacaoDeDados {
     public static void main(String[] args) {
         // Criando um Scanner para ler dados do teclado
         Scanner scanner = new Scanner(System.in);

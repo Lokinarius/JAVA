@@ -1,4 +1,6 @@
-public class MainHelloWorld {
+package java.guanabara.introducao;
+
+public class Main001HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }

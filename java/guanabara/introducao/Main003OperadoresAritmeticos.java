@@ -1,4 +1,6 @@
-public class MainOperadoresAritmeticos {
+package java.guanabara.introducao;
+
+public class Main003OperadoresAritmeticos {
     public static void main(String[] args) {
         /* OPERADORES ARITMÉTICOS */
 
