@@ -1,4 +1,4 @@
-package java.fiasco.poo;
+package curso.fiasco.poo;
 
 public class Main005Heranca {
     public static void main(String[] args) {

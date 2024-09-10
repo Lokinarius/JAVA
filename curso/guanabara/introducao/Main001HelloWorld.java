@@ -1,4 +1,4 @@
-package java.guanabara.introducao;
+package curso.guanabara.introducao;
 
 public class Main001HelloWorld {
     public static void main(String[] args) {

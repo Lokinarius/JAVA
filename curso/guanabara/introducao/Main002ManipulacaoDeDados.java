@@ -1,4 +1,4 @@
-package java.guanabara.introducao;// Importando Scanner
+package curso.guanabara.introducao;// Importando Scanner
 import java.util.Scanner;
 public class Main002ManipulacaoDeDados {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java.fiasco.poo;
+package curso.fiasco.poo;
 
 public class hyuuga extends ninja {
     public void Byakugan(){

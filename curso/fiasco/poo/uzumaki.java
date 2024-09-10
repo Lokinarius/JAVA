@@ -1,4 +1,4 @@
-package java.fiasco.poo;
+package curso.fiasco.poo;
 
 public class uzumaki extends ninja{
     public void ChakraInfinito(){

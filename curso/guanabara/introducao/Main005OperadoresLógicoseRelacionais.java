@@ -1,4 +1,4 @@
-package java.guanabara.introducao;
+package curso.guanabara.introducao;
 
 public class Main005OperadoresLógicoseRelacionais {
     public static void main(String[] args) {
@@ -8,7 +8,10 @@ public class Main005OperadoresLógicoseRelacionais {
         int c = 5;
         int d = 3;
 
-        System.out.println("Operadores lógicos");
+        System.out.println("[Operadores lógicos]");
+        System.out.println("a = true");
+        System.out.println("b = false");
+        System.out.println("\n");
         System.out.println("AND / E");
         System.out.println("a && b = " + (a && b)); // false
         System.out.println("OR / OU");
@@ -17,7 +20,10 @@ public class Main005OperadoresLógicoseRelacionais {
         System.out.println("!a = " + (!a)); // false
         System.out.println("\n");
 
-        System.out.println("Operadores Relacionais");
+        System.out.println("[Operadores Relacionais]");
+        System.out.println("c = 5");
+        System.out.println("d = 3");
+        System.out.println("\n");
         System.out.println("Maior que");
         System.out.println("c > d = " + (c > d)); // false
         System.out.println("Menor que");
