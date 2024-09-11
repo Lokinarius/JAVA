@@ -16,6 +16,8 @@ public class Main005OperadoresLógicoseRelacionais {
         System.out.println("a && b = " + (a && b)); // false
         System.out.println("OR / OU");
         System.out.println("a || b = " + (a || b)); // true
+        System.out.println("OU exclusivo");
+        System.out.println("a ^ b = " + (a ^ b)); // true
         System.out.println("NÃO / NEGADO");
         System.out.println("!a = " + (!a)); // false
         System.out.println("\n");
