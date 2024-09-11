@@ -1,4 +1,4 @@
-package curso.fiasco.poo;
+package curso.fiasco.poo.iniciante;
 
 public class Main003MetodosEParametros {
     public static void main(String[] args) {

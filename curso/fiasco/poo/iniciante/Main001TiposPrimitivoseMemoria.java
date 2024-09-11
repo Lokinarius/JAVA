@@ -1,4 +1,4 @@
-package curso.fiasco.poo;
+package curso.fiasco.poo.iniciante;
 
 public class Main001TiposPrimitivoseMemoria {
     public static void main(String[] args) {

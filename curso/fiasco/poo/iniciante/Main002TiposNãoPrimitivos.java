@@ -1,4 +1,4 @@
-package curso.fiasco.poo;
+package curso.fiasco.poo.iniciante;
 
 public class Main002TiposNãoPrimitivos {
     public static void main(String[] args) {
