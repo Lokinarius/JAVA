@@ -2,12 +2,13 @@ package curso.guanabara.introducao;
 
 public class Main012Metodos {
     // METODOS EM JAVA
-    public static void soma(int a, int b) {
+    static int soma(int a, int b){
         int s = a + b;
-        System.out.println("O resultado da soma entre " + a + " e " + b + " é " + s);
+        return s;
     }
+
     public static void main(String[] args) {
-        // Invocando um metodo
-        soma(5, 10);
+        int resultado = soma(10, 5);
+        System.out.println("Resultado: " + resultado);
     }
 }
