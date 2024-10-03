@@ -1,11 +1,11 @@
 package curso.guanabara.poo.Aula001Classes;
 
 public class Caneta {
-    String modelo;
-    String cor;
-    float ponta;
-    int carga;
-    boolean tampada;
+    public String modelo;
+    public String cor;
+    public float ponta;
+    public int carga;
+    public boolean tampada;
 
     void status(){
         System.out.println(" Modelo: " + this.modelo);
@@ -15,7 +15,7 @@ public class Caneta {
         System.out.println("está tampada? "+ this.tampada);
     }
 
-    void rabiscar(){
+    protected void rabiscar(){
         if (this.tampada == true){
             System.out.println("Não posso rabiscar");
         } else {
@@ -24,11 +24,11 @@ public class Caneta {
 
     }
 
-    void tampar(){
+    protected void tampar(){
         this.tampada = true;
     }
 
-    void destampar(){
+    protected void destampar(){
         this.tampada = false;
     }
 }
