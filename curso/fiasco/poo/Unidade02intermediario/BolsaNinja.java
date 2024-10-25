@@ -1,4 +1,4 @@
-package curso.fiasco.poo.intermediario;
+package curso.fiasco.poo.Unidade02intermediario;
 
 import java.util.List;
 import java.util.ArrayList;

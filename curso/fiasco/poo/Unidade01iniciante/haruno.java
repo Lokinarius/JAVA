@@ -1,4 +1,4 @@
-package curso.fiasco.poo.iniciante;
+package curso.fiasco.poo.Unidade01iniciante;
 
 public class haruno extends ninja {
     public void SuperForca(){

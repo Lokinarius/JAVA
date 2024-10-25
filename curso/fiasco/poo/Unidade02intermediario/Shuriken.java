@@ -1,4 +1,4 @@
-package curso.fiasco.poo.intermediario;
+package curso.fiasco.poo.Unidade02intermediario;
 
 public class Shuriken {
     private int tamanho;
