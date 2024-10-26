@@ -11,6 +11,14 @@ public class ContaBanco {
     private boolean status;
 
     // [METODOS]
+    // Estado
+    public void estadoAtual(){
+        System.out.println("Conta: " + this.getNumConta());
+        System.out.println("Tipo: " + this.getTipo());
+        System.out.println("Dono: " + this.getDono());
+        System.out.println("Saldo: R$" + this.getSaldo());
+        System.out.println("Status: " + this.getStatus());
+    }
     // Abrir Conta
     public void abrirConta( String t) {
         this.setTipo(t);
@@ -34,7 +42,7 @@ public class ContaBanco {
     }
     // Depositar
     public void depositar(float valor) {
-        if (this.isStatus()){
+        if (this.getStatus()){
             this.saldo = this.saldo + valor;
             System.out.println("Deposito realizado na conta de " + getDono());
         } else {
@@ -44,7 +52,7 @@ public class ContaBanco {
     }
     // Sacar
     public void sacar(float valor) {
-        if (this.isStatus()){
+        if (this.getStatus()){
             if (this.getSaldo() >= valor){
                 this.saldo = this.saldo - valor;
                 System.out.println("Saque realizado na conta de " + getDono());
@@ -63,7 +71,7 @@ public class ContaBanco {
         } else if (this.getTipo() == "Conta Poupança"){
             v = 20;
         }
-        if (this.isStatus()){
+        if (this.getStatus()){
             this.setSaldo(this.getSaldo() - v);
             System.out.println("Mensalidade paga com sucesso por " + this.getDono());
         } else {
@@ -72,10 +80,9 @@ public class ContaBanco {
     }
 
     // [CONSTRUTOR]
-    public void ContaBanco(){
+    public ContaBanco() {
         this.status = false;
         this.saldo = 0;
-
     }
 
     // [SETTERS E GETTERS]
@@ -108,7 +115,7 @@ public class ContaBanco {
         this.saldo = saldo;
     }
     // Status
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
     public void setStatus(boolean status) {
