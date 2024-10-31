@@ -23,7 +23,7 @@ public class Main006 {
         DeadCode.status();
 
         // UfoCobol
-        Lutador UfoCobol = new Lutador("Ufucobol","Brasil",37,1.70f,119.3f,5,4,3);
+        Lutador UfoCobol = new Lutador("UfuCobol","Japão",37,1.70f,119.3f,5,4,3);
         UfoCobol.apresentar();
         UfoCobol.status();
 
