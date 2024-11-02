@@ -1,9 +1,11 @@
 package curso.guanabara.poo.Aula007Agregacao;
 
+import java.util.Random;
+
 public class Luta {
     // [ATRIBUTOS]
-    private String desafiado;
-    private String desafiante;
+    private Lutador desafiado;
+    private Lutador desafiante;
     private int rounds;
     private boolean aprovada;
 
@@ -11,28 +13,58 @@ public class Luta {
     public void marcarLuta(Lutador l1, Lutador l2){
         if(l1 != l2){
             this.aprovada = true;
+            this.desafiado = l1;
+            this.desafiante = l2;
+        }else{
+            this.aprovada = false;
+            this.desafiado = null;
+            this.desafiante = null;
         }
 
     }
-    public void lutar(){
+    public void lutar() {
+        if (this.aprovada) {
+            System.out.println("### DESAFIADO ###");
+            this.desafiado.apresentar();
+            System.out.println("### DESAFIANTE ###");
+            this.desafiante.apresentar();
 
+            Random aleatorio = new Random();
+            int vencedor = aleatorio.nextInt(3);
+            switch (vencedor) {
+                case 0: // Vitória
+                    this.desafiado.ganharLuta();
+                    this.desafiante.perderLuta();
+                    break;
+                case 1: // Derrota
+                    this.desafiado.perderLuta();
+                    this.desafiante.ganharLuta();
+                    break;
+                case 2: // Empate
+                    this.desafiado.empatarLuta();
+                    this.desafiante.empatarLuta();
+                    break;
+            }
+        } else {
+            System.out.println("Luta não pode ocorrer!");
+        }
     }
-
     // [GETTERS E SETTERS]
 
-    public String getDesafiado() {
+
+    public Lutador getDesafiado() {
         return desafiado;
     }
 
-    public void setDesafiado(String desafiado) {
+    public void setDesafiado(Lutador desafiado) {
         this.desafiado = desafiado;
     }
 
-    public String getDesafiante() {
+    public Lutador getDesafiante() {
         return desafiante;
     }
 
-    public void setDesafiante(String desafiante) {
+    public void setDesafiante(Lutador desafiante) {
         this.desafiante = desafiante;
     }
 
