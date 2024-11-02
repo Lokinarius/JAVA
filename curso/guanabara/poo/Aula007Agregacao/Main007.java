@@ -1,6 +1,6 @@
 package curso.guanabara.poo.Aula007Agregacao;
-import curso.guanabara.poo.Aula006Relacionamento.Lutador;
-
+import curso.guanabara.poo.Aula007Agregacao.Lutador;
+import curso.guanabara.poo.Aula007Agregacao.Luta;
 import java.util.ArrayList;
 public class Main007 {
     public static void main(String[] args) {
@@ -15,11 +15,11 @@ public class Main007 {
         lutadores.add(new Lutador("UfoCobol", "Brasil", 37, 1.70f, 119.3f, 5, 4, 3));
         lutadores.add(new Lutador("HolyAssembly", "Italia", 33, 1.8f, 105.7f, 12, 1, 0));
 
-        // Iterar pela lista e exibir informações dos lutadores
-        for (Lutador lutador : lutadores) {
-            lutador.apresentar();
-            lutador.status();
-            System.out.println("-------------");        // PythonBoy
-        }
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(lutadores.get(0), lutadores.get(1)); // PythonBoy vs CopyScript
+        UEC01.lutar();
+        lutadores.get(0).status();
+        lutadores.get(1).status();
+
     }
 }
