@@ -1,6 +1,6 @@
 package curso.faculdade.poo;
 
-public class Veiculo {
+public abstract class Veiculo {
     // [ATRIBUTOS]
     private String placa;
     private int ano;
@@ -23,13 +23,7 @@ public class Veiculo {
     public String getPlaca() {
         return placa;
     }
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
     public int getAno() {
         return ano;
-    }
-    public void setAno(int ano) {
-        this.ano = ano;
     }
 }
