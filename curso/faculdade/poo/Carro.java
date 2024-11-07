@@ -28,5 +28,4 @@ public class Carro extends Veiculo implements Manutencao {
         return numeroPortas;
     }
 
-
 }
