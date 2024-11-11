@@ -16,7 +16,6 @@ public class Carro extends Veiculo implements Manutencao {
         return 500 + (numeroPortas * 100);
     }
 
-
     @Override
     public String realizarManutencao() {
         return "Manutenção realizada no carro de " + getNumeroPortas() + " portas, Modelo: " + getAno() + ", de placa" +
