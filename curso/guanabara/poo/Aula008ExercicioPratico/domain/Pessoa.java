@@ -4,15 +4,15 @@ public class Pessoa {
     // [ATRIBUTOS]
     private String nome;
     private int idade;
-    private char sexo;
+    private String sexo;
 
     // [METODOS]
     public void fazerAniver(){
-
+        this.idade++;
     }
 
     // [CONSTRUTOR]
-    public Pessoa(String nome, int idade, char sexo) {
+    public Pessoa(String nome, int idade, String sexo) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
@@ -27,7 +27,7 @@ public class Pessoa {
 
     public void setIdade(int idade) { this.idade = idade; }
 
-    public char getSexo() { return sexo; }
+    public String getSexo() { return sexo; }
 
-    public void setSexo(char sexo) { this.sexo = sexo; }
+    public void setSexo(String sexo) { this.sexo = sexo; }
 }
