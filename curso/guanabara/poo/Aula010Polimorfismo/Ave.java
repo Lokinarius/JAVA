@@ -1,29 +1,26 @@
 package curso.guanabara.poo.Aula010Polimorfismo;
 
 public class Ave extends Animal{
-    //Atributos
+    //[ATRIBUTOS]
     private char corPena;
 
-    //Sobreposição
+    //[SOBREPOSIÇÃO]
     @Override
     public void locomover() {
-        super.locomover();
         System.out.println("Voando");
     }
 
     @Override
     public void alimentar() {
-        super.alimentar();
         System.out.println("Comendo frutas");
     }
 
     @Override
     public void emitirSom() {
-        super.emitirSom();
         System.out.println("Som de Ave");
     }
 
-    //Metodos
+    //[METODOS]
     public void fazerNinho(){
         System.out.println("Construiu um ninho");
     }
