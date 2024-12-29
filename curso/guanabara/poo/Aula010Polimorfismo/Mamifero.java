@@ -6,22 +6,19 @@ public class Mamifero extends Animal{
     //[ATRIBUTOS]
     private char corPelo;
 
-    //[OVERRIDE]
+    //[SOBREPOSIÇÃO]
     @Override
     public void locomover() {
-        super.locomover();
         System.out.println("Correndo");
     }
 
     @Override
     public void alimentar() {
-        super.alimentar();
-        System.out.println("Mamando");
+        System.out.println("Mamamndo");
     }
 
     @Override
     public void emitirSom() {
-        super.emitirSom();
-        System.out.println("Som de mamífero");
+        System.out.println("Som de Mamífero");
     }
 }
