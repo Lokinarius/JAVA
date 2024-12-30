@@ -2,7 +2,7 @@ package curso.guanabara.poo.Aula010Polimorfismo;
 
 public class Ave extends Animal{
     //[ATRIBUTOS]
-    private char corPena;
+    private String corPena;
 
     //[SOBREPOSIÇÃO]
     @Override
@@ -24,4 +24,8 @@ public class Ave extends Animal{
     public void fazerNinho(){
         System.out.println("Construiu um ninho");
     }
+
+    //[GETTERS E SETTERS]
+    public String getCorPena() {return corPena;}
+    public void setCorPena(String corPena) {this.corPena = corPena;}
 }
