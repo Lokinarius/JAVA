@@ -2,7 +2,7 @@ package curso.guanabara.poo.Aula010Polimorfismo;
 
 public class Peixe extends Animal{
     //[ATRIBUTOS]
-    private char corEscama;
+    private String corEscama;
 
     //[SOBREPOSIÇÃO]
     @Override
@@ -24,4 +24,8 @@ public class Peixe extends Animal{
     public void soltarBolha(){
         System.out.println("soltou uma bolha");
     }
+
+    //[GETTERS E SETTERS]
+    public String getCorEscama() {return corEscama;}
+    public void setCorEscama(String corEscama) {this.corEscama = corEscama;}
 }
