@@ -2,7 +2,7 @@ package curso.guanabara.poo.Aula010Polimorfismo;
 
 public class Reptil extends Animal {
     //[ATRIBUTOS]
-    private char corEscama;
+    private String corEscama;
 
     //[SOBREPOSIÇÃO]
 
@@ -20,4 +20,8 @@ public class Reptil extends Animal {
     public void emitirSom() {
         System.out.println("Som de Réptil");
     }
+
+    //[GETTERS E SETTERS]
+    public String getCorEscama() {return corEscama;}
+    public void setCorEscama(String corEscama) {this.corEscama = corEscama;}
 }
