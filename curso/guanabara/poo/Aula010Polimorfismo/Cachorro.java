@@ -8,5 +8,8 @@ public class Cachorro extends Mamifero{
     }
 
     //[METODOS]
+    public void esconderOsso(){
+        System.out.println("Escondendo o osso");
+    }
 
 }
