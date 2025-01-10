@@ -2,6 +2,7 @@ package curso.guanabara.poo.Aula012ExercioPratico.test;
 
 import curso.guanabara.poo.Aula012ExercioPratico.domain.Gafanhoto;
 import curso.guanabara.poo.Aula012ExercioPratico.domain.Video;
+import curso.guanabara.poo.Aula012ExercioPratico.domain.Visualizacao;
 
 public class Main012 {
     public static void main(String[] args) {
@@ -13,6 +14,13 @@ public class Main012 {
         Gafanhoto g[] = new Gafanhoto[2];
         g[0] = new Gafanhoto("Doomer",29,"M","Palhaço Triste");
         g[1] = new Gafanhoto("Egrilo",22,"F","Muie na Net");
+
+        Visualizacao vis[] = new Visualizacao[5];
+        vis[0] = new Visualizacao(g[0], v[2]);
+        vis[1] = new Visualizacao(g[0], v[1]);
+
+
+        System.out.println(vis[0]);
 
         System.out.println("\nVIDEOS\n---------------------");
         System.out.println(v[0].toString());
