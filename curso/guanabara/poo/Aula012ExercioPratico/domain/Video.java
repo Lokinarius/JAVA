@@ -49,7 +49,11 @@ public class Video implements AcoesVideo {
     public void setTitulo(String titulo) {this.titulo = titulo;}
 
     public int getAvaliacao() {return avaliacao;}
-    public void setAvaliacao(int avaliacao) {this.avaliacao = avaliacao;}
+    public void setAvaliacao(int avaliacao) {
+        int nova;
+        nova = ((this.avaliacao + avaliacao)/this.views);
+        this.avaliacao = nova;
+    }
 
     public int getViews() {return views;}
     public void setViews(int views) {this.views = views;}
